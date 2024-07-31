@@ -1,0 +1,11 @@
+.nav {
+    background-color: #212121; /* Background color for the nav bar */
+    color: white; /* Text color for the nav bar */
+    padding: 20px;
+    text-align: center;
+}
+
+.navText {
+    font-family: 'Roboto Condensed';
+    font-size: 30px;
+}

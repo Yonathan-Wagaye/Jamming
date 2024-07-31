@@ -1,0 +1,16 @@
+.results {
+    padding: 20px;
+    width: 35%;
+    margin-left: 50px;
+    
+}
+ 
+.results h2 {
+    color: white;
+    margin-bottom: 20px;
+}
+.trackList {
+    list-style-type: none;
+    padding: 0;
+}
+  
