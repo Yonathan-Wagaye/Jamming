@@ -1,0 +1,56 @@
+.playlist {
+    padding: 20px;
+    width: 40%;
+    margin-right:  50px;
+    background-color: #212121;
+    
+}
+
+.inputContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.playlist hr {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.trackList {
+    list-style-type: none;
+    padding: 0;
+}
+.footer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.button {
+    padding: 12px;
+    font-size: 16px;
+    background-color: 	#1db954;
+    font-family: 'Roboto Condensed';
+    font-weight: bold;
+    border-style: none;
+    border-radius: 30px;
+    width: 130px;
+    margin-top: 50px;
+}
+
+.inputName {
+    width: 50%; 
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-bottom: 2px solid white; 
+    background-color: transparent; 
+    color: white; 
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.inputName:focus {
+    outline: none; /* Remove the default outline */
+  }

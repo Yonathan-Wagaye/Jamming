@@ -1,13 +1,15 @@
 .results {
     padding: 20px;
-    width: 35%;
+    width: 40%;
     margin-left: 50px;
+    background-color: #212121;
     
 }
  
 .results h2 {
     color: white;
     margin-bottom: 20px;
+    font-family: 'Roboto Condensed';
 }
 .trackList {
     list-style-type: none;
