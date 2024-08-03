@@ -1,8 +1,15 @@
-const CLIENT_ID= 'c736e9c5f3084e06a922d63810d5d28a';
-const CLIENT_SECRET = 'a42dbace78e343d5b9969e9442bf2895';
+
+
+
+const CLIENT_ID = import.meta.env.VITE_CLIENTID ; 
+
+
+
 
 const REDIRECT_URI = 'http://localhost:5173'; // Change this to your redirect URI
 const SCOPES = 'user-read-private user-read-email playlist-modify-public playlist-modify-private';
+
+
 
 export const authUrl = `https://accounts.spotify.com/authorize?response_type=token&client_id=${CLIENT_ID}&scope=${encodeURIComponent(SCOPES)}&redirect_uri=${encodeURIComponent(REDIRECT_URI)}`;
 
